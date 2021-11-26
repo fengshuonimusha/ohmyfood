@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    display: flex;
+  }
+.cont1{   
+    margin-left: 500px;
+}
+.loader{
+    width: 10em;
+    height: 10em;
+    border-top: 15px solid #9356DC;
+    border-right: 1em solid transparent;
+    border-radius: 50%;
+    margin: auto;
+    animation: loader 0.85s linear infinite;
+}
+
+.circle{
+    width: 1em;
+    height: 1em;
+    background-color:#FF79DA;
+    border-radius: 50%;
+    margin-left: 8.5em;
+    margin-top: 0.5em;    
+}
+
+@keyframes loader{
+    100% {transform: rotate(360deg);}
+}
+
+.container {
+    display: flex;
+    width: 80px;    
+    flex-direction: row;
+    padding-top: 250px;
+}
+  
+  .block {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 12px;
+    height: 12px;
+    color: #9356DC;
+}
+  
+  .block:nth-child(4n+1) { animation: wave 2s ease .0s infinite; }
+  .block:nth-child(4n+2) { animation: wave 2s ease .2s infinite; }
+  .block:nth-child(4n+3) { animation: wave 2s ease .4s infinite; }
+  .block:nth-child(4n+4) { animation: wave 2s ease .6s infinite; }
+  .block:nth-child(4n+5) { animation: wave 2s ease .8s infinite; }
+  .block:nth-child(4n+6) { animation: wave 2s ease .9s infinite; }
+  .block:nth-child(4n+7) { animation: wave 2s ease .10s infinite; }
+  
+  @keyframes wave {
+    0%   { top: 0;     opacity: 1; }
+    50%  { top: 30px;  opacity: .2; }
+    100% { top: 0;     opacity: 1; }
+  }
