@@ -1,172 +1,220 @@
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
-:root{
-    --primary-color:#9356DC;
+:root {
+	--primary-color: #9356dc;
 }
-#color1{
-    color:var(--primary-color);
-}
-
-:root{
-    --second-color:#FF79DA;
-}
-#color2{
-    color: var(--second-color);
+#color1 {
+	color: var(--primary-color);
 }
 
-:root{
-    --third-color:#99E2D0;
+:root {
+	--second-color: #ff79da;
 }
-#color3{
-    color: var(--third-color);
-}
-
-:root{
-    --fourth-color:#EAEAEA;
-}
-#color4{
-    color: var(--fourth-color);
+#color2 {
+	color: var(--second-color);
 }
 
-:root{
-    --fifth-color:#CECECE;
+:root {
+	--third-color: #99e2d0;
 }
-#color5{
-    color: var(--fifth-color);
-}
-
-:root{
-    --sixth-color:#F6F6F6;
-}
-#color6{
-    color:var(--sixth-color);
+#color3 {
+	color: var(--third-color);
 }
 
-:root{
-    --seventh-color:#F5EDFF;
+:root {
+	--fourth-color: #eaeaea;
 }
-#color7{
-    color: var(--seventh-color);    
-}
-
-:root{
-    --eighth-color:#E8E8E8;
-}
-#color8{
-    color: var(--eighth-color);
+#color4 {
+	color: var(--fourth-color);
 }
 
-:root{
-    --ninth-color:#ffffff;
+:root {
+	--fifth-color: #cecece;
 }
-#color9{
-    color: var(--ninth-color);
+#color5 {
+	color: var(--fifth-color);
 }
 
-@media  screen and (min-width: 375px) and (max-width:768px ){
-    .container{
-        max-width: 100%;
-    }
+:root {
+	--sixth-color: #f6f6f6;
+}
+#color6 {
+	color: var(--sixth-color);
+}
 
-    header{
-        display: flex;
-        justify-content: center;
-        padding-top: 5px;
-        height: 63px;
-    }
+:root {
+	--seventh-color: #f5edff;
+}
+#color7 {
+	color: var(--seventh-color);
+}
 
-    main{
-        width: 100%;
-        padding: 8px;
-        margin: auto;
-        margin-top: -20px;
-    }
+:root {
+	--eighth-color: #e8e8e8;
+}
+#color8 {
+	color: var(--eighth-color);
+}
 
-    img{
-        width: 100%;
-        margin-top: 25px;
-    }
+:root {
+	--ninth-color: #ffffff;
+}
+#color9 {
+	color: var(--ninth-color);
+}
 
-    .card-menu{
-        border-radius: 40px 40px 0px 0px;
-        background-color: var(--sixth-color);
-        margin-top: -50px;
-        padding-top: 5px;
-        position: relative;
-        
-    }
+.container {
+	max-width: 100%;
+}
 
-    h1, h3{
-        margin-left: 15px;
-    }
+header {
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	height: 63px;
+}
 
-    h3:hover{
-        border-bottom: 3px solid var(--third-color);        
-        margin-right: 385px;
-        cursor: pointer;
+.back {
+	position: absolute;
+	margin-right: 315px;
+	margin-top: 30px;
+	font-size: 20px;
+	color: black;
+}
 
-    }
+.back a:visited {
+	text-decoration: none;
+}
 
-    .card-menu__starter{
-        border-radius: 20px 20px 20px 20px;
-        background-color: var(--ninth-color);
-        margin-left: 16px;
-        margin-right: 6px;
-        margin-top: 15px;
-        padding-left: 10px;
-        display: flex;
-        flex-direction:column ;
-        line-height: 2px;
-    }
+main {
+	width: 100%;
+	padding: 8px;
+	margin: auto;
+	margin-top: -20px;
+}
 
-    .tarif{
-       position: absolute;
-       margin-left: 255px;
-       padding-top: 5px;
-       font-weight: bold;
-    }    
+h1,
+h2 {
+	margin-left: 15px;
+}
 
-    .btn-explore{               
-        background: linear-gradient(160deg, var(--second-color) 0%, var(--primary-color) 100%);
-        border-radius: 20px;
-        color: var(--ninth-color);
-        padding: 10px;
-        margin-top: 15px;
-        margin-bottom: 30px;
-                  
-    }
-    
-    .btn-explore:hover{
-        cursor: pointer;        
-        opacity: 0.9;/*intensité du "masque" au survol*/
-    }
-    
-    
-    .footer{
-        background-color: #353535;
-        padding-top: 5px;
-        padding-bottom: 20px;
-    }
+h1 {
+	font-family: "Shrikhand";
+	font-size: 30px;
+}
 
-    .footer-interactive__title{
-        margin-left: 15px;        
-    }
-    
-    .footer-interactive a{
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 20px;
-        padding-left: 10px;
-        padding-top: 25px;
-        line-height: 2px;            
-        text-decoration: none;
-        color: var(--ninth-color);
-    }    
+h2,
+h3,
+p {
+	font-family: "Roboto";
+}
 
-    .footer-interactive a:visited{
-        text-decoration: none;
-    }
+h2 {
+	font-size: 20px;
+	border-bottom: 3px solid var(--third-color);
+}
 
+img {
+	width: 100%;
+	margin-top: 25px;
+}
+
+.card-menu {
+	border-radius: 40px 40px 0px 0px;
+	background-color: var(--sixth-color);
+	margin-top: -50px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.card-menu__starter {
+	border-radius: 20px 20px 20px 20px;
+	background-color: var(--ninth-color);
+	margin-left: 16px;
+	margin-right: 6px;
+	margin-top: 15px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	line-height: 2px;
+	box-shadow: 5px 4px 10px -6px grey;
+}
+
+.tarif {
+	position: absolute;
+	margin-left: 255px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+.btn-explore {
+	background: linear-gradient(160deg, var(--second-color) 0%, var(--primary-color) 100%);
+	border-radius: 30px;
+	color: var(--ninth-color);
+
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+.btn-explore:hover {
+	cursor: pointer;
+	opacity: 0.9; /*intensité du "masque" au survol*/
+}
+
+.footer {
+	background-color: #353535;
+}
+
+.footer-interactive__title {
+	font-family: "Shrikhand";
+	margin-right: 250px;
+	margin-top: 0px;
+}
+
+.footer-interactive {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 25px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer-interactive:last-child {
+	margin-left: 4px;
+	font-family: "Roboto";
+}
+
+.footer-interactive a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-interactive a:visited {
+	text-decoration: none;
+}
+
+.footicone {
+	display: flex;
+	flex-direction: wrap;
+}
+
+.foot {
+	margin-top: 18px;
+	margin-left: 0px;
+	margin-right: 10px;
+	line-height: 1;
+}
+
+.foot i {
+	color: white;
 }

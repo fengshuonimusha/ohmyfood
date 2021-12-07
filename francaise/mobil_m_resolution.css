@@ -1,0 +1,14 @@
+h2 {
+	margin-right: 275px;
+}
+
+.heart {
+	position: absolute;
+	font-size: 25px;
+	margin-left: 275px;
+	margin-top: -60px;
+}
+
+.btn-explore {
+	margin-left: 100px;
+}

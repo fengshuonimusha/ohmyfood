@@ -1,0 +1,53 @@
+h3 {
+	margin-top: 20px;
+	margin-left: 8px;
+}
+
+.round {
+	margin-left: -10px;
+	padding-top: 3px;
+}
+.marker i {
+	margin-left: 35px;
+	color: black;
+}
+
+i {
+	margin-left: 20px;
+	margin-right: 25px;
+	color: grey;
+}
+
+.search-card__text {
+	padding-right: 90px;
+}
+.rules p {
+	text-align: left;
+}
+
+.btn-explore {
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.name p {
+	margin-left: 8px;
+}
+
+.restaurants-prev__textnouveau {
+	padding: 8px;
+	margin-left: 650px;
+	margin-right: 35px;
+	margin-bottom: 230px;
+	margin-top: 10px;
+}
+
+.heart {
+	padding-top: 170px;
+	margin-left: 650px;
+}
+
+input {
+	margin-left: 26px;
+}
