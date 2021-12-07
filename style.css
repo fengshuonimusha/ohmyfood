@@ -216,12 +216,12 @@ header {
 	position: absolute;
 	font-size: 25px; /*taille des coeur far et fas*/
 }
-/*la ligne dessous casse la mise en place des hearts*/
-/*.heart > .fas {	
+
+.heart > .fas {	
 	opacity: 0;
 	transition-duration: 0.4s;
 	background:gradient (linear,top,bottom,from (var(--primary-color)),to(var(--second-color));
-}*/
+}
 
 input {
 	position: absolute;

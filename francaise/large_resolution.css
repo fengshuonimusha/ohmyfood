@@ -4,8 +4,13 @@ h2 {
 .heart {
 	position: absolute;
 	font-size: 25px;
-	margin-left: 630px;
+	margin-left: 625px;
 	margin-top: -60px;
+}
+
+.card-menu__starter {
+	display: flex;
+	flex-direction: row;
 }
 
 .tarif {

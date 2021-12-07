@@ -13,9 +13,13 @@ h3 {
 }
 
 i {
-	margin-left: 20px;
+	margin-left: -20px;
 	margin-right: 25px;
 	color: grey;
+}
+
+input {
+	margin-left: 20px;
 }
 
 .search-card__text {
@@ -46,6 +50,6 @@ i {
 	margin-left: 280px;
 }
 
-input {
+.heart > .fas input {
 	margin-left: 26px;
 }
