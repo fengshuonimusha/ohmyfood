@@ -1,0 +1,88 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+body {
+	margin: 0px;
+	background-color: #fff;
+}
+
+.container {
+	max-width: 1440px;
+}
+
+header {
+	@include header;
+}
+
+.search-card {
+	@include search-card;
+	background-color: $fourth-color;
+	border-top: 2px solid $fifth-color;
+	box-shadow: inset $fifth-color 0px 4px 5px 0px;
+	height: $search-card-height;
+}
+
+.search-card__marker {
+	position: absolute;
+	margin-right: 185px;
+}
+
+.search-card__text {
+	margin-right: 25px;
+}
+
+.search-card__marker i {
+	color: black;
+}
+
+.discover-card {
+	@include discover-card;
+	background-color: $sixth-color;
+}
+
+h1 {
+	font-size: $h1-size;
+}
+.btn {
+	@include btn;
+	background: linear-gradient(160deg, $second-color 0%, $primary-color 100%);
+	color: #fff;
+
+	&:hover {
+		cursor: pointer;
+		opacity: 0.9;
+	}
+}
+
+.howto-card__title {
+	margin-left: 5px;
+}
+
+.steps {
+	@include steps;
+	&:hover {
+		background-color: $seventh-color;
+	}
+}
+
+.steps-style {
+	background-color: $sixth-color;
+	box-shadow: 5px 5px 5px $eighth-color;
+}
+
+.round {
+	@include round;
+	background-color: $primary-color;
+}
+
+.steps i {
+	padding-left: 25px;
+	color: grey;
+	&:hover {
+		color: $primary-color;
+	}
+}
+
+.steps p {
+	padding-left: 25px;
+}

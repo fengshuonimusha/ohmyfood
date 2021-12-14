@@ -1,0 +1,47 @@
+@mixin header {
+	display: flex;
+	justify-content: center;
+	padding-top: 23px;
+	height: 63px;
+}
+
+@mixin search-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin discover-card {
+	padding-top: 40px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+@mixin btn {
+	border-radius: 30px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+@mixin steps {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+@mixin round {
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	color: white;
+	align-content: center;
+	line-height: 150%;
+}

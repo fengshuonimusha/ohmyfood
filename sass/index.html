@@ -12,81 +12,55 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="style.css" />
-		<link
-			rel="stylesheet"
-			media="screen and (min-width:375px) and (max-width: 424px)"
-			href="mobil_m_resolution.css"
-		/>
-		<link
-			rel="stylesheet"
-			media="screen and (min-width:425px) and (max-width: 767px)"
-			href="mobil_l_resolution.css"
-		/>
-		<link
-			rel="stylesheet"
-			media="screen and (min-width:768px) and (max-width: 1023px)"
-			href="tablette_resolution.css"
-		/>
-		<link
-			rel="stylesheet"
-			media="screen and (min-width:1024px) and (max-width: 1440px)"
-			href="large_resolution.css"
-		/>
-		<link
-			rel="stylesheet"
-			media="screen and (min-width:1440px) and (max-width: 2560px)"
-			href="larger_resolution.css"
-		/>
 		<title>OhMyFood</title>
 	</head>
 	<body>
 		<div class="container">
 			<header>
 				<a href="#">
-					<img src="images/logo/ohmyfood@2x.svg" alt="Logo Oh_my_Food" />
+					<img src="images/logo/ohmyfood@2x.svg" alt="logo ohmyfood" />
 				</a>
 			</header>
-			<main>
-				<section class="search-card">
-					<div class="marker">
-						<i class="fas fa-map-marker-alt mark"></i>
-					</div>
-					<div>
-						<p class="search-card__text">Paris, Belleville</p>
-					</div>
-				</section>
-				<section class="discover-card">
-					<div class="discover-card__title">
-						<h1>Réservez le menu qui vous convient</h1>
-					</div>
-					<div class="discover-card__subtitle">
-						<p>Découvrez des restaurants d'exception, sélectionés par nos soins.</p>
-					</div>
-					<div class="discover-card__explore">
-						<button class="btn-explore">Explorer nos restaurants</button>
-					</div>
-				</section>
-				<section class="howto-card">
-					<h2 class="howto-card__heading">Fonctionnement</h2>
-					<div class="rules">
-						<div class="steps steps-rounded steps-style">
-							<span class="round">1</span>
-							<i class="fas fa-mobile-alt"></i>
-							<p>Choisissez un restaurant</p>
-						</div>
-						<div class="steps steps-rounded steps-style">
-							<span class="round">2</span>
-							<i class="fas fa-list-ul"></i>
-							<p>Composez votre menu</p>
-						</div>
-						<div class="steps steps-rounded steps-style">
-							<span class="round">3</span>
-							<i class="fas fa-store"></i>
-							<p>Dégustez au restaurant</p>
-						</div>
-					</div>
-				</section>
-				<section class="restaurants-prev">
+			<section class="search-card">
+				<div class="search-card__marker">
+					<i class="fas fa-map-marker-alt"></i>
+				</div>
+				<div class="search-card__text">
+					<p>Paris, Belleville</p>
+				</div>
+			</section>
+			<section class="discover-card">
+				<div class="discover-card__title">
+					<h1>Réservez le menu qui vous convient</h1>
+				</div>
+				<div class="discover-card__subtitle">
+					<p>Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+				</div>
+				<span class="btn">Explorer nos restaurants</span>
+			</section>
+			<section class="howto-card">
+				<div class="howto-card__title">
+					<h2>Fonctionnement</h2>
+				</div>
+				<div class="rules">
+                    <div class="steps steps-style">
+                        <span class="round">1</span>
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Choisissez un restaurant</p>
+                    </div>
+                    <div class="steps steps-style">
+                        <span class="round">2</span>
+                        <i class="fas fa-list-ul"></i>
+                        <p>Composez votre menu</p>
+                    </div>
+                    <div class="steps steps-style">
+                        <span class="round">3</span>
+                        <i class="fas fa-store"></i>
+                        <p>Dégustez au restaurant</p>
+                    </div>
+                </div>				
+			</section>
+            <section class="restaurants-prev">
 					<h2 class="restaurants-prev__heading">Restaurants</h2>
 					<div class="cards">
 						<div class="a1">
@@ -184,6 +158,7 @@
 					</div>
 				</footer>
 			</main>
+		</div>            
 		</div>
 	</body>
 </html>
